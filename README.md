@@ -3,6 +3,8 @@
 
 Welcome to AquaCoder, a real-time mermaid diagram interpreter designed for collaborative use 🤝. This platform leverages the power of Liveblocks to enable multiple users to work on mermaid diagrams simultaneously, in real-time 🚀. Whether you're a team of developers 👩‍💻👨‍💻, a group of students 📚, or just someone looking to create complex diagrams with others, AquaCoder offers a seamless and intuitive interface to bring your ideas to life 🌟.
 
+![AquaCoder_bg](https://github.com/WizzzStark/AquaCoder/assets/85120579/a958ea9e-e4d5-4877-88f4-35e9834c87d3)
+
 ## Features 🌈
 
 - **Real-time Collaboration:** Work with team members on the same diagram in real time, thanks to the integration with Liveblocks 🤝.
