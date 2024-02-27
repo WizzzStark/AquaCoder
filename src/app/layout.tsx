@@ -1,5 +1,6 @@
 import "../globals.css";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/react"
 
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body>
         <link rel="icon" href="/favicon2.ico" sizes="any" />
         {children}
+        <Analytics />
         </body>
     </html>
   );
