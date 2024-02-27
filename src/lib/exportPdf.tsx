@@ -4,7 +4,7 @@ import { jsPDF } from 'jspdf';
 export const exportMermaidAsPDF = () => {
     const mermaidContainer = document.querySelector('.mermaid'); // Adjust selector if necessary
     if (mermaidContainer) {
-      html2canvas(mermaidContainer, {
+      html2canvas(mermaidContainer as HTMLElement, {
         onclone: (document) => {
           const mermaidClone = document.querySelector('.mermaid');
           if (mermaidClone) {
