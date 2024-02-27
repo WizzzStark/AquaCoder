@@ -15,9 +15,37 @@ Welcome to AquaCoder, a real-time mermaid diagram interpreter designed for colla
 
 To start using AquaCoder, follow these simple steps:
 
-1. **Visit [AquaCoder](#)**: Open your browser and go to the AquaCoder website 🌐.
+1. **Visit [AquaCoder]((https://vercel.com/wizzzstark/aqua-coder))**: Open your browser and go to the AquaCoder website 🌐.
 2. **Create or Join a Room**: You can start a new diagram or join an existing session using a unique session ID 📝.
 3. **Start Collaborating**: Once in a session, you can start creating your mermaid diagram. Invite others to join by sharing the session ID 🎉.
+
+Or run it locally:
+
+1. Clone reporsitory:
+
+```bash
+git clone https://github.com/WizzzStark/ProtoForge
+```
+
+2. Install dependecies:
+
+```bash
+cd protoforge
+npm install
+```
+
+3. Create an account in [liveblocks.io](https://liveblocks.io/dashboard)
+
+- Copy public key [administration](https://liveblocks.io/dashboard/apikeys)
+
+- Create `.env.local` and add the variable `LIVEBLOCKS_SECRET_KEY=public_key`
+
+
+4. Run de server:
+
+```bash
+npm run dev
+```
 
 ## Prerequisites 📋
 
