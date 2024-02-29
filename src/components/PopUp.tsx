@@ -19,7 +19,7 @@ const Popup = ({ closePopUp }: { closePopUp: any }) => {
 
 
                 <div className="flex items-center gap-2 mt-5">
-                    <span className="text-md text-gray-200 font-sans font-medium"> Share the link to code together in real time! </span>
+                    <span className="text-md text-gray-200 font-sans font-medium"> Share the link to code in mermaid together in real time! </span>
                 </div>
 
                 <button 
